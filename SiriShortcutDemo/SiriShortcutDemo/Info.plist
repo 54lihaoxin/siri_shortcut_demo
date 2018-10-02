@@ -23,6 +23,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>com.haoxinli.SiriShortcutDemo.turnRed</string>
+		<string>com.haoxinli.SiriShortcutDemo.turnWhite</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
