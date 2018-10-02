@@ -12,6 +12,7 @@
 		AC9331D821638AE5003F1FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9331D621638AE5003F1FBC /* Main.storyboard */; };
 		AC9331DA21638AEB003F1FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9331D921638AEB003F1FBC /* Assets.xcassets */; };
 		AC9331DD21638AEB003F1FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9331DB21638AEB003F1FBC /* LaunchScreen.storyboard */; };
+		AC9331E721638C31003F1FBC /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9331E621638C31003F1FBC /* Intents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AC9331DC21638AEB003F1FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9331DE21638AEB003F1FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9331E421638B74003F1FBC /* SiriShortcutDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriShortcutDemo.entitlements; sourceTree = "<group>"; };
+		AC9331E621638C31003F1FBC /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9331E721638C31003F1FBC /* Intents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 			children = (
 				AC9331D121638AE5003F1FBC /* SiriShortcutDemo */,
 				AC9331D021638AE5003F1FBC /* Products */,
+				AC9331E521638C31003F1FBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +68,14 @@
 				AC9331DE21638AEB003F1FBC /* Info.plist */,
 			);
 			path = SiriShortcutDemo;
+			sourceTree = "<group>";
+		};
+		AC9331E521638C31003F1FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9331E621638C31003F1FBC /* Intents.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
