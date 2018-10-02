@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		AC9331D321638AE5003F1FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9331D221638AE5003F1FBC /* AppDelegate.swift */; };
-		AC9331D521638AE5003F1FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9331D421638AE5003F1FBC /* ViewController.swift */; };
 		AC9331D821638AE5003F1FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9331D621638AE5003F1FBC /* Main.storyboard */; };
 		AC9331DA21638AEB003F1FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9331D921638AEB003F1FBC /* Assets.xcassets */; };
 		AC9331DD21638AEB003F1FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9331DB21638AEB003F1FBC /* LaunchScreen.storyboard */; };
 		AC9331E721638C31003F1FBC /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9331E621638C31003F1FBC /* Intents.framework */; };
+		AC9331EB21638CD7003F1FBC /* SiriDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9331EA21638CD7003F1FBC /* SiriDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC9331CF21638AE5003F1FBC /* SiriShortcutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriShortcutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9331D221638AE5003F1FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC9331D421638AE5003F1FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC9331D721638AE5003F1FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9331D921638AEB003F1FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9331DC21638AEB003F1FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9331DE21638AEB003F1FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9331E421638B74003F1FBC /* SiriShortcutDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriShortcutDemo.entitlements; sourceTree = "<group>"; };
 		AC9331E621638C31003F1FBC /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		AC9331EA21638CD7003F1FBC /* SiriDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			children = (
 				AC9331E421638B74003F1FBC /* SiriShortcutDemo.entitlements */,
 				AC9331D221638AE5003F1FBC /* AppDelegate.swift */,
-				AC9331D421638AE5003F1FBC /* ViewController.swift */,
+				AC9331EA21638CD7003F1FBC /* SiriDemoViewController.swift */,
 				AC9331D621638AE5003F1FBC /* Main.storyboard */,
 				AC9331D921638AEB003F1FBC /* Assets.xcassets */,
 				AC9331DB21638AEB003F1FBC /* LaunchScreen.storyboard */,
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9331D521638AE5003F1FBC /* ViewController.swift in Sources */,
+				AC9331EB21638CD7003F1FBC /* SiriDemoViewController.swift in Sources */,
 				AC9331D321638AE5003F1FBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
